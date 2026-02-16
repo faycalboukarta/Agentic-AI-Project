@@ -290,6 +290,54 @@ OLLAMA_MODEL = "qwen2.5-coder:7b"  # Change this to your preferred model
 
 ---
 
+## 📥 Dataset Download
+
+The CSV data files are **not included** in this repository due to their large size (~100MB+). You'll need to download them separately.
+
+### Download the Dataset
+
+**Brazilian E-Commerce Public Dataset by Olist**
+
+1. **From Kaggle** (Recommended):
+   - Visit: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+   - Click "Download" (requires free Kaggle account)
+   - Extract the ZIP file
+
+2. **Alternative Sources**:
+   - Search for "Olist Brazilian E-Commerce Dataset" on data repositories
+   - The dataset is publicly available and widely distributed
+
+### Setup the Data
+
+After downloading, place all CSV files in the `data/` folder:
+
+```
+ia-agent/
+└── data/
+    ├── olist_customers_dataset.csv
+    ├── olist_orders_dataset.csv
+    ├── olist_order_items_dataset.csv
+    ├── olist_order_payments_dataset.csv
+    ├── olist_order_reviews_dataset.csv
+    ├── olist_products_dataset.csv
+    ├── olist_sellers_dataset.csv
+    ├── olist_geolocation_dataset.csv
+    └── product_category_name_translation.csv
+```
+
+**Expected Files (9 CSV files):**
+- `olist_customers_dataset.csv` (~20 MB)
+- `olist_geolocation_dataset.csv` (~58 MB)
+- `olist_order_items_dataset.csv` (~15 MB)
+- `olist_order_payments_dataset.csv` (~2 MB)
+- `olist_order_reviews_dataset.csv` (~30 MB)
+- `olist_orders_dataset.csv` (~10 MB)
+- `olist_products_dataset.csv` (~2 MB)
+- `olist_sellers_dataset.csv` (~100 KB)
+- `product_category_name_translation.csv` (~5 KB)
+
+---
+
 ## 🗄️ Database Setup
 
 The project uses a SQLite database with Brazilian e-commerce data.

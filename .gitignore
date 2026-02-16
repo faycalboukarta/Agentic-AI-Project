@@ -5,3 +5,5 @@ __pycache__/
 *.csv
 data/
 .env
+.files/
+.chainlit/
