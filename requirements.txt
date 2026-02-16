@@ -1,0 +1,16 @@
+langgraph
+langchain
+langchain-community
+langchain-ollama
+chainlit
+pandas
+plotly
+python-dotenv
+sqlalchemy
+statsmodels
+matplotlib
+seaborn
+scikit-learn
+uvicorn
+anyio
+nest_asyncio
